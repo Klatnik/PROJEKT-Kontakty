@@ -24,6 +24,7 @@ h1 {
 
 .kontejner img {
 	border-radius: 50%;
+	max-width: 40%;
 
 }
 
@@ -34,8 +35,6 @@ h1 {
 	border: 1px solid grey;
 	margin: 30px;
 	text-align: center;
-	align-items: center;
-	min-width: 0;
 	
 
 }
@@ -52,7 +51,7 @@ h1 {
 		flex-grow: 0;
 		width: calc(50% - 30px);
 		margin: 15px;
-		overflow: hidden;
+		align-items: normal;
 	}
 
 	
@@ -73,11 +72,12 @@ h1 {
 	.zena {
 		display: block;
 		margin: 15px;
-		padding-left: 0;
+		
 	}
 
 	.text {
 		text-align: center;
+		padding-left: 0;
 	}
 
 }
